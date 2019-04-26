@@ -1,0 +1,78 @@
+.foot{
+	width: 100%;
+	height: 400px;
+	background: white;
+	margin: 0 auto;
+}
+.foot .foot_a{
+    width: 1225px;
+    height: 145px;
+    /*border-bottom: 1px solid #ccc;*/
+    margin: 0 auto;
+    text-align: center;
+}
+.foot_a li{
+	float: left;
+	padding: 44px 50px;
+	height: 80px;
+}
+.foot_a li img{
+	width: 42px;
+	height: 35px;
+	position: relative;
+	transition:all .5s;
+}
+.foot_a li p{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #595757;
+}
+.foot_a li:hover img{
+	bottom: -10px;
+
+}
+.foot_a li:hover p{
+	color: #007Bc6;
+	margin-bottom: 10px;
+}
+.foot .foot_b{
+    width: 1150px;
+    height: 170px;
+    margin: 0 auto;
+}
+.foot_b .foot_bul{
+	margin-top: 70px;
+}
+.foot_b .b_one{
+	float: left;
+	font-size: 14px;
+    color: #323333;
+    font-weight: bold;
+    padding: 0px 30px;
+}
+.foot_bul .b_one ul{
+	margin-top: 25px;
+}
+.foot_bul .b_one ul li{
+	font-weight: normal;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.foot_bul .b_one ul li:hover{
+	color: #007Bc6;
+}
+.foot_bin b{
+	font-size: 20px;
+	color: #007Bc6;
+	margin-left: 50px;
+}
+.foot_bin input{
+	width: 120px;
+	height: 30px;
+	background: #007Bc6;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	margin-left: 50px;
+	cursor: pointer;
+}
