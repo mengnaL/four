@@ -399,7 +399,18 @@ html,body{
 	color: #4e5052;
 	text-transform:capitalize;
 }
+#box .section .container .row{
+	width: 1140px;
+	height: 350px;
+	/*border:1px solid black;*/
+	margin: 0 auto;
+}
 #box .section .container .row .aaa{
+	float: left;
+	width: 265px;
+	height: 350px;
+	margin-left: 15px;
+	margin-top: 180px;
 	animation:aa .5s ease 0s forwards;
 }
 @-webkit-keyframes aa{
@@ -411,6 +422,11 @@ html,body{
 	}
 }
 #box .section .container .row .bbb{
+	float: left;
+	width: 265px;
+	height: 350px;
+	margin-left: 15px;
+	margin-top: 180px;
 	animation:bb .5s ease .2s forwards;
 }
 @-webkit-keyframes bb{
@@ -422,6 +438,11 @@ html,body{
 	}
 }
 #box .section .container .row .ccc{
+	float: left;
+	width: 265px;
+	height: 350px;
+	margin-left: 15px;
+	margin-top: 180px;
 	animation:cc .5s ease .3s forwards;
 }
 @-webkit-keyframes cc{
@@ -433,6 +454,11 @@ html,body{
 	}
 }
 #box .section .container .row .ddd{
+	float: left;
+	width: 265px;
+	height: 350px;
+	margin-left: 15px;
+	margin-top: 180px;
 	animation:dd .5s ease .4s forwards;
 }
 @-webkit-keyframes dd{
